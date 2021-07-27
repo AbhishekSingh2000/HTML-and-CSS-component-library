@@ -1,141 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-    --primary-color: #7C3AED;
-    --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+  --primary-color: #7c3aed;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
-.fluid{
-    margin:2rem;
+.fluid {
+  margin: 2rem;
 }
 
-.center{
-    max-width: 600px;
-    margin:auto;
+.center {
+  max-width: 600px;
+  margin: auto;
 }
 
 .link {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
-hr{
-    margin:20px;
+hr {
+  margin: 20px;
 }
 
 .link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-    display: block;
-    max-width: 140px;
-    margin: 10px 10px;
-    display:inline;
-    margin: 1rem 1rem 1rem 0rem;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  display: block;
+  max-width: 140px;
+  margin: 10px 10px;
+  display: inline;
+  margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    display: block;
-    max-width: 140px;
-    margin: 10px 10px;
-    display:inline;
-    margin: 1rem 1rem 1rem 0rem;
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  display: block;
+  max-width: 140px;
+  margin: 10px 10px;
+  display: inline;
+  margin: 1rem 1rem 1rem 0rem;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
-.navigation{
-   background-color: var(--primary-color);
-   color: white; 
-   padding: 1rem;
-   border-bottom-left-radius: 1rem;
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
-.navdescribe{
-    font-size: 2rem;
-    font-weight: bold;
+.navdescribe {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .navlist {
-    list-style: none;
-    display:inline;
-    padding: 1rem;
+  list-style: none;
+  display: inline;
+  padding: 1rem;
 }
 
-.navlistanchor{
-    text-decoration: none;
-    color: white;
+.navlistanchor {
+  text-decoration: none;
+  color: white;
 }
 
-.navigation .navigatebutton{
-    text-align: right; 
-    font-size: 1.5rem;
+.navigation .navigatebutton {
+  text-align: right;
+  font-size: 1.5rem;
 }
 
-.navigation .link-active{
-    font-weight: bold;
+.navigation .link-active {
+  font-weight: bold;
 }
-.img{
-    width: 350px;
-    display: block;
-    margin:auto;
-    padding: 1rem;
-}
-
-.designation{
-    color: var(--primary-color);
+.img {
+  width: 350px;
+  display: block;
+  margin: auto;
+  padding: 1rem;
 }
 
-.namedesignation{
-    max-width: 750px;
-    margin:auto;
+.designation {
+  color: var(--primary-color);
+}
+
+.namedesignation {
+  max-width: 750px;
+  margin: auto;
 }
 
 .sctn {
-    text-align: center;
+  text-align: center;
 }
 
 .sctn2 {
-    background-color: var(--off-white);
-    border: 10px solid var(--off-white);
+  background-color: var(--off-white);
+  border: 10px solid var(--off-white);
 }
 
-.ftr{
-    background-color: var(--primary-color);
+.ftr {
+  background-color: var(--primary-color);
 }
 
-.ftr .paraftr{
-    font-size: 1.5rem;
-    padding: 1rem;
-    color:white
+.ftr .paraftr {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: white;
 }
 
-.liftr{
-    list-style: none;
-    display : inline;
-    padding: 1rem;
-    text-align: right;
+.liftr {
+  list-style: none;
+  display: inline;
+  padding: 1rem;
+  text-align: right;
 }
 
-.ftrul{
-    text-align: center;
+.ftrul {
+  text-align: center;
 }
 
-.aftr{
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+.aftr {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
 }
