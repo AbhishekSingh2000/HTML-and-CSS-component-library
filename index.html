@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML and CSS Componenet Library</title>
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
     <h1>Abhishek's Component Library</h1>
@@ -20,17 +21,19 @@
       This is anormal text which will wrap at the ends of the screen as a
       feature named toggle wrap(windows- Alt+Z) is activated.
     </p>
+    <p>This paragraph will have a <strong>bold</strong> text</p>
     <small>This is realtively smaller text.</small>
     <hr />
     <h2>@Container</h2>
     <h3>Fluid container</h3>
-    <p>This is a fluid container and it will go till the end of the page.</p>
+    <div><p class="fluid">This is a fluid container and it will go till the end of the page.</p><div>
     <h3>Centered container</h3>
-    <p>This is a centered container and it will go till the end of the page.</p>
+    <div class= "center"><p>This is a centered container and it will go till the end of the page.</p></div>
     <hr />
+    
     <h2>@Links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
     <hr />
     <h2>@Lists</h2>
     <h3>Unordered List</h3>
@@ -42,56 +45,63 @@
     </ul>
     <h3>Unordered inline list</h3>
     <ul>
-      <li>Inline Item one</li>
-      <li>Inline Item two</li>
-      <li>Inline Item three</li>
+      <li class= "list-item-inline" >Inline Item one</li>
+      <li class= "list-item-inline">Inline Item two</li>
+      <li class= "list-item-inline">Inline Item three</li>
     </ul>
     <h3>Reverse order list</h3>
-    <ol>
+    <ol reversed>
       <li>Milk</li>
       <li>Eggs</li>
       <li>Bread</li>
     </ol>
     <hr />
-    <nav>
+    
       <h2>@Nav</h2>
-      <p>I am A Web Developer</p>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Product</a></li>
-        <li><a href="/">About</a></li>
-      </ul>
-    </nav>
+      <nav class="navigation"><p class = "navdescribe">I am A Web Developer</p>
+      <ul class="navigatebutton">
+        <li class="navlist"><a class="navlistanchor link-active" href="/">Home</a></li>
+        <li class="navlist"><a
+            class="navlistanchor" href="/">Product</a></li>
+        <li class="navlist"><a
+            class="navlistanchor" href="/">About</a></li>
+      </ul></nav>
+
     <hr />
     <h2>@Header</h2>
-    <img
+    <div><img class="img"
       src="https://pbs.twimg.com/profile_images/1139064732705366016/546jiRR__400x400.jpg"
       alt=""
-    />
-    <img src="images/spidey.jpg" alt="" />
-    <h1>Abhishek Kumar Singh- The Web Developer</h1>
+    /></div>
+    
+    <h1 class="namedesignation">Abhishek Kumar Singh- <span class= "designation"> The Web Developer</span></h1>
     <hr />
+
+
     <h2>@Section</h2>
-    <section>
+    <section class="sctn sctn1">
       <h2>White Section</h2>
       <p>
-        e are an open community of developers building resources for a better
+        We are an open community of developers building resources for a better
         Web, regardless of brand, browser, or platform.
-      </p>
+      </p></section>
+
+      <section class="sctn sctn2">
       <h2>Off White Section</h2>
       <p>
-        e are an open community of developers building resources for a better
+        we are an open community of developers building resources for a better
         Web, regardless of brand, browser, or platform.
       </p>
     </section>
+  
     <hr />
     <h2>@Footer</h2>
-    <footer>
-      <p>Some small heading inside footer</p>
-      <ul>
-        <li><a href="/">Social One</a></li>
-        <li><a href="/">Social two</a></li>
-        <li><a href="/">Social Three</a></li>
+    <footer class="ftr">
+      <p class="paraftr">Some small heading inside footer</p>
+      <ul class="ftrul">
+        <li class="liftr"><a class= "aftr" href="/">Social One</a></li>
+        <li class="liftr"><a class= "aftr" href="/">Social two</a></li>
+        <li class="liftr"><a class= "aftr" href="/">Social Three</a></li>
       </ul>
     </footer>
   </body>
